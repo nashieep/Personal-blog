@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+   * {
+      box-sizing: border-box;
+   }
+   body {
+      margin: 0;
+      font-family: sans-serif;
+   }
+   nav {
+      font-size: 20px;
+      background-color: rgb(2, 48, 32);
+      color: #cccccc;
+      height: 75px;
+   }
+   ul {
+      position: fixed;
+      right:10px;
+   }
+   ul li {
+      display: inline;
+      padding-right: 30px;
+      font-weight: 500;
+      color: rgb(251, 255, 0);
+}
+   .blog {
+      margin-top: 20px;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 400px;
+   }
+   .post {
+      margin-top: 20px;
+      float: left;
+   }
+   .blogHeader {
+   font-family: comic sans ms;
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-align: center;
+   }
+   .links {
+      float: right;
+   }
+   .links li {
+      color: black;
+   }
+   footer {
+      color: white;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 30px;
+      height: 80px;
+      padding: 20px;
+      background-color: rgb(2, 41, 32);
+      text-align: center;
+   }
+</style>
+<body>
+<nav>
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Contact</li>
+</ul>
+</nav>
+<div class="blog">
+<div class="post">
+<div class="blogHeader">
+<h1>Afro Beats</h1>
+</div>
+<div class="blog-body">
+<p>
+ -African music is huge, very welcoming, and loud around the world
+</p>
+</div>
+</div>
+<div class="links">
+<ul>
+<li>BLOG</li>
+</ul>
+</div>
+</div>
+<footer>
+moniqua.pognon@gmail.com
+</footer>
+</body>
+</html>
+Output
+
+</body>
+</html>
