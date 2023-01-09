@@ -1,25 +1,18 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-background-color:#006400;
-  font-family: Arial;
-  margin: 0;
+  margin: 20px;
+  background-color: #006400;
 }
-
 .header {
+font-family: lucida console;
   padding: 60px;
   text-align: center;
-  background:#006400;
+  background: #006400;
   color: white;
 }
-
 .navbar {
   display: flex;
   background-color: #333;
 }
-
 .navbar a {
   color: white;
   padding: 14px 20px;
@@ -39,13 +32,12 @@ background-color:#006400;
 
 .side {
   flex: 30%;
-  background-color:#6B8E23;
+  background-color: #6B8E23;
   padding: 20px;
 }
 
 .fa:hover {
     opacity: 0.7;
-     
 }
 
 .icon-bar a {
@@ -75,4 +67,4 @@ background-color:#006400;
 @media screen and (max-width: 700px) {
   .row, .navbar {   
     flex-direction: column;
-  }
+  }      
