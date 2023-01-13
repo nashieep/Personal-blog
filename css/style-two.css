@@ -1,13 +1,9 @@
 body {
   margin: 20px;
-  background-color: #006400;
+  background-color: #b35900;
 }
  * {
       box-sizing: border-box;
-   }
-   body {
-      margin: 0;
-      font-family: sans-serif;
    }
    nav {
       font-size: 20px;
@@ -38,7 +34,7 @@ body {
    }
    .blogHeader {
    font-family: comic sans ms;
-      font-size: 36px;
+      font-size: 20px;
       margin-bottom: 20px;
       text-align: center;
    }
@@ -47,17 +43,4 @@ body {
    }
    .links li {
       color: black;
-   }
-   footer {
-      color: white;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-      margin-left: auto;
-      margin-right: auto;
-      font-size: 30px;
-      height: 80px;
-      padding: 20px;
-      background-color: rgb(2, 41, 32);
-      text-align: center;
    }
