@@ -1,4 +1,6 @@
-@import url("two-style.css");
+@import url("style-two.css");
+@import url("style-three.css");
+@import url("style-four.css");
 body {
   margin: 20px;
   background-color: #006400;
