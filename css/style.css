@@ -15,6 +15,18 @@ font-family: lucida console;
 .grid-container {
   display: grid;
 }
+.container{
+  display: grid;
+  font-size: 16px;
+}
+button {
+  color: #b4b4b4;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+ 
+}
 .column {
   float: left;
   width: 33.3%;
@@ -23,6 +35,7 @@ font-family: lucida console;
 }
 
 .card {
+  overflow: hidden
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
@@ -56,7 +69,6 @@ font-family: lucida console;
   background-color: white;
   padding: 20px;
 }
-
 
 /* Footer */
 .footer {
