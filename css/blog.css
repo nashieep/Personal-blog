@@ -1,0 +1,21 @@
+
+   .blog {
+      margin-top: 20px;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 400px;
+   }
+   .post {
+      margin-top: 20px;
+      float: left;
+   }
+   .blogHeader {
+   font-family: comic sans ms;
+      font-size: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+   }
+   .links li {
+      color: black;
+   }
