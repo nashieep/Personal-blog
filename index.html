@@ -1,74 +1,135 @@
 <!doctype html>
 <html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css" />
+      <title>Personal Blog</title>
+   </head>
+   <body>
+    <!--
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css" />
-  <title>Personal Blog</title>
-</head>
+      I think 
 
-<body>
-	  <nav>
-  <ul>
-  <li><a href="blog.html">back</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-  </nav>
-  <!-- Header ------------------>
-  <div class="header">
-    <h1>Afro beats</h1>
-    <p>Afro beats to the World</p>
-  </div>
-  <!-- The flexible grid (content) -------->
-  <div class="row">
-    <div class="side">
-      <div class="card">
-        <div class="column">
-          <div class="card">
-            <a href="https://raw.githubusercontent.com/nashieep/Personal-blog/main/img/afropic.jpg">
-              <div class="container">
-                <h2>Afro beats</h2>
-                <p>
-                <blockquote><em>Born in Nigeria and Ghana, Afrobeats has become one of the most eclectic—and exportable—sounds in contemporary music, mixing with everything from rap and dancehall to R&B and house.</em>
-                  <blockquote>
-                    </p>
-                    <p><button class="button">more..</button></p>
-              </div>
-          </div>
-        </div>
+      <nav>
+         <ul>
+            
+            <li><a href="blog.html">back</a></li>
+            <li><a href="#about">About</a></li>
+         </ul>
+      </nav>
+
+      Should go undernearth <p>Afro beats to the World</p> inside the <div class="header">
+    -->
+      <nav>
+         <ul>
+            <!-- I would chnge the word "back" to blog, because it looks like it is going to blog.html and that is consistent. -->
+            <li><a href="blog.html">back</a></li>
+            <!-- 
+              
+              About link doesn't do anything...
+            
+            -->
+            <li><a href="#about">About</a></li>
+         </ul>
+      </nav>
+      <!-- Header ------------------>
+      <div class="header">
+         <h1>Afro beats</h1>
+         <p>Afro beats to the World</p>
       </div>
+      <!-- The flexible grid (content) -------->
+      <!-- 
+          Not sure what div class="row" and div class="side " are doing? They don't wrap around any elements.
+          
+          This would be considered broken code. Please review
+
+       -->
+      <div class="row">
+      <div class="side">
+      <!--
+         Not sure why you have a div with a class of card wrapping
+         around a div with a class of column. Then inside of the column class you have another card.
+         
+         I think you should delete the div with class card that wraps around the div with the class column.
+         
+         The reviewer provides links on How TO - Cards & How To - Column Cards.
+         
+         Make sure that your card calss and column class follow closely reslemble the instructions in those links.
+         -->
+      <div class="card">
+         <div class="column">
+            <div class="card">
+               <!---
+                  Not sure what you are trying to do here. But, it looks like you are linking to an image? 
+                  
+                  You may want to change <a href="https://raw.githubusercontent.com/nashieep/Personal-blog/main/img/afropic.jpg">
+                  
+                  To <img src="https://raw.githubusercontent.com/nashieep/Personal-blog/main/img/afropic.jpg" alt="afro" />
+                  
+                  -->
+               <a href="https://raw.githubusercontent.com/nashieep/Personal-blog/main/img/afropic.jpg">
+                  <div class="container">
+                     <h2>Afro beats</h2>
+                     <p>
+                     <blockquote>
+                     <em>Born in Nigeria and Ghana, Afrobeats has become one of the most eclectic—and exportable—sounds in contemporary music, mixing with everything from rap and dancehall to R&B and house.</em>
+                     <blockquote>
+                     </p>
+                     <p><button class="button">more..</button></p>
+                  </div>
+            </div>
+         </div>
+      </div>
+      <!-- add id="#about" to the div below to make that link work. Don't worry you can have an id and a class on the same div  -->
       <div class="main">
         <h2> What is Afro beats?</h2>
         <h5>Afrobeat was developed in Nigeria in the late 1960s by Fela Kuti
         </h5>
         <figure>
-          <a href="https://raw.githubusercontent.com/nashieep/Personal-blog/main/img/invpic.jpg">
-            <figcaption>Fela Kuti died in 1997</figcaption>
-		</a>
-		  </figure>
+        <!---
+          You may want to change 
+          
+            <a href="https://raw.githubusercontent.com/nashieep/Personal-blog/main/img/invpic.jpg">
+              <figcaption>Fela Kuti died in 1997</figcaption>
+          </a>
+          
+          <figure>
+              <img src="https://raw.githubusercontent.com/nashieep/Personal-blog/main/img/invpic.jpg"
+                  alt="Fela Kuti died in 1997">
+              <figcaption>Fela Kuti died in 1997</figcaption>
+          </figure>
+          
+          By doing this you'll address the reviewers comments regarding having an image with a <figcaption>
+          
+          -->
+        <a href="https://raw.githubusercontent.com/nashieep/Personal-blog/main/img/invpic.jpg">
+        <figcaption>Fela Kuti died in 1997</figcaption>
+        </a>
+        </figure>
         <p>ˈa-frō-ˌbēt</p>
         <p>Afrobeat is a Nigerian music genre that involves the combination of West African musical styles and American funk, jazz, and soul influences, with a focus on chanted vocals, complex intersecting rhythms, and percussion.</p>
         <br>
-        <h2> Why Afro beats?
-        </h2>
+        <h2> Why Afro beats?</h2>
         <h5>Afrobeat, as a musical genre, pioneered the inclusivity of the Africans in the diaspora</h5>
+        <!-- This looks like another place where you are confusing using <a hre="" /> with <img src="" />. Please change this to use an image tag. -->
         <a href="https://github.com/nashieep/Personal-blog/blob/main/img/affpic3.jpg?raw=true">
         </a>
         <p>Afrobeats is jubilant party music that draws on West African sources — hybrid languages, propulsive rhythms.</p>
         <p>The newest popular musical style among today's youth is afro beats. I recall, though, falling in love with the first song I heard before it became popular. I felt the impulse to stand up and "dance" to let my body speak for itself. I eventually began dating a Nigerian who introduced me to more music, and I haven't looked back since.</p>
       </div>
-
       <!-- Footer ---------------->
       <div class="footer">
-        <!-- Note ----------------->
-            <h3> subscribe below for more content:</h3>
-            <form action="/action_page.php">
-              <label for="email">Enter your email:</label>
-              <input type="email" id="email" name="email">
-              <input type="submit">
-            </form>
-        </div>
-</body>
-
+         <!-- Note ----------------->
+         <h3> subscribe below for more content:</h3>
+         <!--
+            To address the reviewers feedback I would put a links of social media links here.
+         -->
+         <form action="/action_page.php">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email">
+            <input type="submit">
+         </form>
+      </div>
+   </body>
 </html>
